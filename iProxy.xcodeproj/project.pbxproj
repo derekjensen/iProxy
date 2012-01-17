@@ -567,7 +567,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: JÃÂ©rÃÂ´me Lebel (556N3JMPNT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Derek Jensen (D45FKYKE7A)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -579,8 +579,8 @@
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = iProxy;
 				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E449EF04-7B2D-4C86-92BB-4F6401AF81FF";
-				SDKROOT = iphonesimulator4.1;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E76DEBA1-3353-47BB-A4B5-4DC2179D7E93";
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -591,7 +591,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: JÃÂ©rÃÂ´me Lebel (556N3JMPNT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Derek Jensen (D45FKYKE7A)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Sources/Prefix.pch;
@@ -600,8 +600,8 @@
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = iProxy;
 				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E449EF04-7B2D-4C86-92BB-4F6401AF81FF";
-				SDKROOT = iphonesimulator4.1;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E76DEBA1-3353-47BB-A4B5-4DC2179D7E93";
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
@@ -630,7 +630,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CODE_SIGN_ENTITLEMENTS = Resources/Entitlements.plist;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: JÃÂ©rÃÂ´me Lebel (556N3JMPNT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Derek Jensen (D45FKYKE7A)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Sources/Prefix.pch;
@@ -639,8 +639,8 @@
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = iProxy;
 				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E449EF04-7B2D-4C86-92BB-4F6401AF81FF";
-				SDKROOT = iphonesimulator4.1;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E76DEBA1-3353-47BB-A4B5-4DC2179D7E93";
+				SDKROOT = iphoneos;
 			};
 			name = "Ad-hoc";
 		};
@@ -653,6 +653,7 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
 				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
